@@ -1,0 +1,41 @@
+{
+  "engines": {
+    "node": "^4.1.0"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js"
+  ],
+  "bin": {
+    "svgs2sprite": "bin/svgsprite.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.20.0",
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "koa": "^1.2.0",
+    "koa-send": "^3.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "svgs2sprite",
+  "version": "0.0.1",
+  "description": "Convert multiple SVGs into an SVG sprite",
+  "main": "index.js",
+  "keywords": [
+    "svg",
+    "sprite",
+    "image",
+    "xml",
+    "conversion",
+    "vector",
+    "graphics"
+  ],
+  "author": "Nick Sandonato <nick.sandonato@gmail.com>",
+  "license": "MIT"
+}
