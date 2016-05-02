@@ -16,13 +16,6 @@
     "cheerio": "^0.20.0",
     "commander": "^2.9.0"
   },
-  "devDependencies": {
-    "koa": "^1.2.0",
-    "koa-send": "^3.2.0"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
   "name": "svgs2sprite",
   "version": "0.0.1",
   "description": "Convert multiple SVGs into an SVG sprite",
